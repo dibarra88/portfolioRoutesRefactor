@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: darkgray;
+}
+img{
+  width: 500px;
+  height: 500px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+.App-logo-reverse {
+  animation: App-logo-spin-reverse infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes App-logo-spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+.tinyLogo{
+  width: 100px;
+  height: 100px;
+} 
